@@ -1,1 +1,4 @@
 rootProject.name = 'yig'
+include 'AuthMicroService'
+include 'UserMicroService'
+
