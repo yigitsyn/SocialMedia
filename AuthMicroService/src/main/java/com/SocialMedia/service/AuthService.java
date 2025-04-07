@@ -15,7 +15,7 @@ public class AuthService {
 
     public Auth register(RegisterRequestDto dto) {
         return authRepository.save(Auth.builder()
-                        .username(dto.getUserName())
+                        .userName(dto.getUserName())
                         .email(dto.getEmail())
                         .password(dto.getPassword())
                 .build());

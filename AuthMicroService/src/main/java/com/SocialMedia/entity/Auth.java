@@ -17,7 +17,7 @@ public class Auth {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    String username;
+    String userName;
     String password;
     String email;
     Boolean isActive;
