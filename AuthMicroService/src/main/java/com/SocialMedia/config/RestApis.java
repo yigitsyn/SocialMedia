@@ -8,4 +8,8 @@ public class RestApis {
     public static final String AUTHSERVICE = DEVELOPER+VERSIONS+"/auth";
     public static final String REGISTER = "/register";
     public static final String LOGIN = "/login";
+    public static final String USERPROFILEURL="http://localhost:9091";
+    public static final String USERPROFILEFEIGNCLIENT = "/dev/v1/user-profile";
+    public static final String USERPROFILEFEIGNUSER = USERPROFILEURL+USERPROFILEFEIGNCLIENT;
+    public static final String CREATEUSER = "/create-user";
 }
