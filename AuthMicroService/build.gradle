@@ -2,6 +2,7 @@ dependencies {
     implementation libraries.springBootDataJpa
     implementation libraries.postgreSQL
     implementation libraries.lombok
+    implementation libraries.feignClient
     annotationProcessor libraries.lombok
 
 }
