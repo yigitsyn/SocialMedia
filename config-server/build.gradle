@@ -1,0 +1,5 @@
+dependencies {
+    implementation libraries.springCloudConfig
+    implementation libraries.springCloudConfigServer
+
+}
