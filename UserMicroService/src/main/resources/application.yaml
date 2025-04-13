@@ -1,11 +1,8 @@
-server:
-  port: 9091
-
 spring:
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      userName: yig
-      password: root
-      database: UserProfileDb
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL}
+  config:
+    import: "configserver:"
+  application:
+    name: user-application
