@@ -25,4 +25,9 @@ public class UserProfileController {
     ResponseEntity<List<UserProfile>> getAllUserProfiles() {
         return ResponseEntity.ok(userProfileService.getAll());
     }
+
+    @GetMapping("/upperName")
+    public ResponseEntity<String> upperName(String name){
+        return ResponseEntity.ok(userProfileService.upperName(name));
+    }
 }
