@@ -4,5 +4,5 @@ dependencies {
     implementation libraries.lombok
     implementation libraries.feignClient
     annotationProcessor libraries.lombok
-    implementation libraries.springCloudConfigServer
+    implementation libraries.springCloudConfigClient
 }
